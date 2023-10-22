@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    text-decoration: none;
+    margin: none;
+    padding: none;
+    border: none;
+}
+
+body{
+    background-image: url(wallpaper_planet.png);
+}
+
+main{
+    padding-left: 96px;
+    margin-top: -16px;
+}
+
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 30px;
+    gap: 72px;
+}
+
+.NavbarLinks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 18px;
+    gap: 48px;
+
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+
+.Home:hover{
+    color: #b669ff;
+    transition: .1s ease-in 0s;
+}
+
+.SobreNós:hover{
+    color: #b669ff;
+    transition: .1s ease-in 0s;
+}
+
+.Contato{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.Contato:hover{
+    color: #b669ff;
+    transition: .1s ease-in 0s;
+}
+
+.Textomaior{
+    width: 850px;
+
+    color: #ffffff;
+    font-family: Darker Grotesque;
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 0.70;
+}
+
+.TextoMenor{
+    width: 662px;
+    height: 164px;
+    flex-shrink: 0;
+
+    color: #ffffff;
+    text-align: justify;
+    font-family: Darker Grotesque;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 34px; /* 170% */
+}
+
+.Home{
+    color: white;
+}
+
+.SobreNós{
+    color: white;
+}
+
+.NiaraImagemPrincipal{
+    position: fixed;
+    right: 0px;
+    width: 640px;
+    bottom: -40px;
+}
+
+.BotãoconheçaNiara{
+    display:flex;
+    justify-content: center;
+}
+
+#conheçaNiarabotão{
+    border-radius: 99px;
+    background: conic-gradient(from 180deg at 50.00% 50.00%, #B52BBA 4.666563235223293deg, #A12CBC 23.647727966308594deg, #8C2EBE 44.85525995492935deg, #792FBF 72.45651304721832deg, #6C30C0 82.50000178813934deg, #4B32C3 127.99007892608643deg, #5831C2 160.968976020813deg, #6330C1 178.45529437065125deg, #742FC0 189.47770357131958deg, #8D2DBE 202.95226335525513deg, #A62CBC 230.65982580184937deg, #B92ABA 251.35178089141846deg, #D029B8 276.4414644241333deg, #EC27B6 306.45145654678345deg, #C729B9 331.67617321014404deg);
+    box-shadow: 0px 0px 70px 0px rgba(173, 39, 236, 0.40);
+
+    color: rgb(255, 255, 255);
+    display: flex;
+    width: 237px;
+    height: 58px;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+ 
+#conheçaNiarabotão:hover{
+    transform: scale(1.06);
+    transition: .1s ease-in 0s;
+    cursor: pointer;
+}
+
+.MãoRobô{
+    position: fixed;
+    bottom: -110px;    
+    width: 461px;
+    height: 312px;
+    flex-shrink: 0;
+    right: 1060px;
+    rotate: -5deg;
+}
+
+#sound_button{
+    cursor: pointer;
+
+    padding-top: 30px;
+    padding-left: 800px;
+}

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    text-decoration: none;
+    margin: none;
+    padding: none;
+    border: none;
+}
+
+body{
+    background-color: #070113;
+}
+
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 102px;
+    padding-top: 5px;
+    gap: 72px;
+}
+
+.NavbarLinks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 18px;
+    gap: 48px;
+
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+
+.Home{
+    color: #ffffff;
+}
+
+.Home:hover{
+    color: #b669ff;
+    transition: .1s ease-in 0s;
+}
+
+.SobreNós{
+    color: #ffffff;
+}
+
+.SobreNós:hover{
+    color: #b669ff;
+    transition: .1s ease-in 0s;
+}
+
+.Contato{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.Contato:hover{
+    color: #b669ff;
+    transition: .1s ease-in 0s;
+}
+
+.Textogrande{
+    color: white;
+    padding-left: 360px;
+    font-family: Darker Grotesque;
+    font-size: 60px;
+}
+
+.Textopequeno1{
+    color: #FFF;
+    text-align: justify;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    width: 472px;
+    height: 200px;
+    flex-shrink: 0;
+    padding-left: 870px;
+    padding-top: 10px;
+}
+
+.Textopequeno2{
+    width: 472px;
+    height: 101px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: justify;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    padding-left: 870px;
+    
+    
+}
+
+.imagemunimar{
+    position: absolute;
+    top: 216px;
+    width: 568px;
+    height: 437px;
+    flex-shrink: 0;
+    border-radius: 36px;
+    left: 200px;
+}
+
+.valores{
+    color: #FFF;
+    font-family: Darker Grotesque;
+    font-size: 80px;
+    font-weight: 600;
+    padding-left: 200px;
+    padding-top: 64px;
+}
+
+.container{
+    padding-left: 180px;
+    padding-bottom: 10px;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    gap: 80px;
+}
+
+.circle {
+    width: 180px;
+    height: 180px;
+    line-height: 180px;
+    text-align: center;
+    border-radius: 50%;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background: rgb(70, 51, 114);
+}

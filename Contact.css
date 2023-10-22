@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    text-decoration: none;
+    margin: none;
+    padding: none;
+    border: none;
+}
+
+body{
+    background-color: #070113;
+}
+
+main{
+    padding-left: 96px;
+}
+
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 5px;
+    gap: 72px;
+}
+
+.NavbarLinks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 18px;
+    gap: 48px;
+    margin-top: -696px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+
+.Home{
+    color: #ffffff;
+}
+
+.Home:hover{
+    color: #b669ff;
+    transition: .1s ease-in 0s;
+}
+
+.SobreNós{
+    color: #ffffff;
+}
+
+.SobreNós:hover{
+    color: #b669ff;
+    transition: .1s ease-in 0s;
+}
+
+.Contato{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.Contato:hover{
+    color: #b669ff;
+    transition: .1s ease-in 0s;
+}
+
+.planetabrilhante{
+    position: fixed;
+    right: 0px;
+    width: 880px;
+    bottom: -40px;
+}
+
+.Barradeicones{
+    background-color: #230c3a;
+    position: absolute;
+    bottom: 120px;
+    left: 110px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+    /* Sizing */
+    padding: 15px;
+    border-radius: 20px;
+}
+
+
+.Textomaiorcontatos{
+    width: 500px;
+    color: #FFF;
+    font-family: Darker Grotesque;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    margin: 0px;
+}
+
+.Textomenorcontatos{
+    width: 620px;
+    height: 202px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: justify;
+    font-family: Darker Grotesque;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    display: flex;
+    position: absolute;
+    margin-top: 352px;
+}
+
+.Textosdecontatos{
+    display: flex;
+    position: absolute;
+    margin-bottom: 200px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.unimarlogo {
+    padding-bottom: 696px;
+    padding-left: 15px;
+}

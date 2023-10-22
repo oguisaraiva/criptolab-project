@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Index.css" media="screen" />
+    <title>Unimar.labcripto/niara - Página Inicial</title>
+    <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
+</head>
+
+<body>
+    <div class="Navbar">
+        <img class="unimarlogo">
+        <a href="https://unimar.br/">
+            <img class="unimarlogo" href="https://unimar.br/" src="/img/UnimarLogo.png">
+        </a>
+    
+        <div class="NavbarLinks">
+            <a class="Home" href="Index.html">Home</a>
+            <a class="SobreNós" href="SobreEmpresa.html">Sobre Nós</a>
+            <a class="Contato" href="Contact.css">Contato</a>
+        </div>
+
+        <div id="sound_button" onClick="justPlay()" ><img title='Music Playing' alt='Play The Music' src='/img/sound-off.png'/></div>
+    </div>
+
+    <main>
+        <div class="TextosInformações">
+            <div class="Textomaior">
+                <h1> A tecnologia como sua amiga, Niara.</h1>
+            </div>
+
+            <div class="TextoMenor">
+                <h5> Olá, você que é estudante ou conveniado Unimar, e busca por mais
+                    comodidade na hora de resolver assuntos relacionados à universidade e aos nossos outros
+                    serviços? Conheça Niara e resolva suas pendências sem dor de cabeça e sem precisar se deslocar de
+                    seu conforto.</h5>
+            </div>
+        </div>
+        <div class="BotãoconheçaNiara">
+            <a href="/InfoNiara.html">
+                <button id="conheçaNiarabotão">Conheça Niara</button>
+            </a>
+        </div>
+        <div>
+            <img class="NiaraImagemPrincipal" src="/img/NiaraImagemprincipal.png" width="100">
+        </div>
+            
+        <img class="MãoRobô" src="/img/robot-hand-finger-pointing-ai-technology-backgrou-2022-09-16-09-23-42-utc 1.png" width="100">
+    </main>
+
+    <script type="text/javascript">
+        let songIsPlaying = false;
+        let sound = document.getElementById("sound");
+        var snd_btn = document.getElementById("sound_button");
+
+        function playSong() {
+            sound.play();
+            songIsPlaying = true;
+            snd_btn.innerHTML = "<img alt='Pause The Music' title='Music Paused' src='/img/sound-on.png' />"
+        }
+
+        function pauseSong() {
+            sound.pause();
+            songIsPlaying = false;
+            snd_btn.innerHTML = "<img alt='Play The Music' title='Music Playing' src='/img/sound-off.png' />"
+        }
+
+        function justPlay() {
+            if (songIsPlaying == false) {
+                playSong();
+            } else{
+                pauseSong();
+            }
+        }
+    </script>
+</body>
+
+</html>
